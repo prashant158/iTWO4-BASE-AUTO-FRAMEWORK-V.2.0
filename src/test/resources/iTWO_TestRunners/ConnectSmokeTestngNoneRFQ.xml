@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CCS Connect">
+
+    <listeners>
+        <!-- <listener class-name="iTWO_Listeners.AnnotationTransformer"></listener>-->
+        <listener class-name="iTWO_Listeners.ExtentReportListeners"/>
+    </listeners>
+
+    <test name="Login Test Case" enabled="true">
+        <classes>
+            <class name="CCS_ConnectScripts.Login"/>
+            <!--class name="CCS_Connect_SmokeTestSuite.T03_SystemSetup_MaintainList"/>
+            <class name="CCS_Connect_SmokeTestSuite.T05_Configuration_ClientTest"/>
+            <class name="CCS_Connect_SmokeTestSuite.T06_Configuration_BidLeadsTest"/>
+            <class name="CCS_Connect_SmokeTestSuite.T07_Configuration_ContractManagersTest"/>
+            <class name="CCS_Connect_SmokeTestSuite.T09_Estimating_BidListTest"/>
+            <class name="CCS_Connect_SmokeTestSuite.T11_Contracts_ContractListTest"/-->
+            <class name="CCS_Connect_SmokeTestSuite.T12_Vendor_ManagementTest"/>
+            <!--class name="CCS_Connect_SmokeTestSuite.T14_Create_eRFQTest"/>
+            <class name="CCS_Connect_SmokeTestSuite.T15_eRFQRequestsTest"/>
+            <class name="CCS_Connect_SmokeTestSuite.T17_VendorSubmissionListTest"/-->
+            <class name="CCS_ConnectScripts.Logout"/>
+        </classes>
+    </test>
+</suite>
+
+
+

@@ -1,0 +1,5 @@
+WinWaitActive("Open")
+Send("D:\RIB CCS\SampleAttachments\3.jpg")
+Sleep(2000)
+ControlClick("Open","","Button1")
+Send("{Enter}")

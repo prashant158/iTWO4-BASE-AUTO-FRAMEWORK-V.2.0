@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CCS Connect">
+
+    <listeners>
+        <!-- <listener class-name="iTWO_Listeners.AnnotationTransformer"></listener>-->
+        <listener class-name="iTWO_Listeners.ExtentReportListeners"/>
+    </listeners>
+
+    <test name="SpiceJet_BaseClass" enabled="true">
+        <classes>
+            <class name="SpicejectScript.InitializeDriver"/>
+            <class name="SpicejectScript.uiElements"/>
+
+            </classes>
+    </test>
+</suite>
+
+
+

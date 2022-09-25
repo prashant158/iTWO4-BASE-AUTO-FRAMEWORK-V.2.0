@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CCS Connect">
+
+    <listeners>
+        <!-- <listener class-name="iTWO_Listeners.AnnotationTransformer"></listener>-->
+        <listener class-name="iTWO_Listeners.ExtentReportListeners"/>
+    </listeners>
+
+    <test name="Login Test Case" enabled="true">
+        <classes>
+            <class name="CCS_ConnectScripts.Login"/>
+            <class name="CCS_ConnectRegressionPerSprint.TestCasesSprint83"/>
+            <!--class name="CCS_ConnectScripts.eRFQ"/-->
+            <!--class name="CCS_ConnectRegressionPerSprint.TestCasesSprint83"/-->
+            <!--class name="CCS_ConnectScripts.Configuration_ClientTest"/>
+            <class name="CCS_ConnectScripts.Configuration_BidLeadsTest"/>
+            <class name="CCS_ConnectScripts.Configuration_ContractManagersTest"/>
+            <class name="CCS_ConnectScripts.Estimating_BidListTest"/-->
+            <class name="CCS_ConnectScripts.Logout"/>
+        </classes>
+    </test>
+</suite>
+
+
+

@@ -1,0 +1,48 @@
+{
+  "QA": {
+    "local_properties": {
+      "firefox_path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+    },
+    "agent1_properties": {
+      "firefox_path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "RemoteIP" : "192.10.14.15"
+    },
+    "agent2_properties": {
+      "firefox_path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "RemoteIP" : "192.10.14.19"
+    },
+    "agent3_properties": {
+      "firefox_path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "RemoteIP" : "192.10.14.20"
+    },
+    "isActive": "true",
+    "aut_url": "https://qa.mtwo.international/itwo40/client/#/loginPage",
+    "Username": "bhanu.vallamla@ribccs.com",
+    "Password": "P@ssw0rd",
+    "switch": "ON",
+    "enable_db_logging": "false",
+    "enable_html_logging": "true"
+  },
+  "QALive":{
+    "local_properties": {
+      "firefox_path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "cr_path": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    "agent1_properties": {
+      "cr_path": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+      "firefox_path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "RemoteIP": "192.12.13"
+    },
+    "isActive": "true",
+    "db_url": "fgfg",
+    "db_user": "",
+    "db_pass": "",
+    "swift_hostname": "",
+    "swift_jms_port": "",
+    "swift_bic": "",
+    "rfbs_hostname": "",
+    "rfbs_jms_port": "",
+    "enable_db_logging": "false",
+    "enable_html_logging": "true"
+  }
+}
